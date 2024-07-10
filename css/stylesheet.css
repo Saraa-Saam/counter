@@ -1,0 +1,199 @@
+body {
+  padding: none;
+  margin: none;
+  box-sizing: border-box;
+}
+
+#Home {
+  width: 100%;
+  height: 550px;
+  background-image: url(/imgs/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+#home-content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+#Home h2,
+p {
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#home h2 {
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+#leftMenu {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -360px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+/* toggle */
+#sliderDown {
+  margin: 100px auto;
+  width: 50%;
+  text-align: center !important;
+}
+#sliderDown h3 {
+  font-size: 1.75rem;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+#sliderDown .first {
+  display: block;
+}
+#sliderDown div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+/*  */
+#count {
+  background-image: url(/imgs/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+
+.count-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+.container {
+  padding: 100px 0px;
+  text-align: center;
+}
+.tim {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+/* contact */
+#contact-us {
+  margin-top: 100px;
+}
+.container {
+  padding: 100px 0px;
+}
+#contact-us .head h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact-us .head p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+#contact-us .con-info h3 {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact-us .con-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+#contact-us .icons {
+  margin-top: 50px;
+}
+#contact-us .icons p {
+  margin-bottom: 35px;
+}
+#contact-us .con-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+#contact-us .red {
+  color: #d62e33 !important;
+}
+#contact-us .con-info .social-list {
+  margin-top: 60px;
+  color: #777;
+}
+#contact-us .con-info .social-list i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+/* form */
+#contact-us form input,
+#contact-us form textarea {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#chars {
+  font-size: 20px;
+  color: #d62e33;
+}
+#contact-us form button {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
